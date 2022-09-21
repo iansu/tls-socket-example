@@ -1,0 +1,13 @@
+{
+  "name": "tls-socket",
+  "description": "A Node.js TLS socket client and server example",
+  "version": "1.0.0",
+  "author": "Ian Sutherland <ian@iansutherland.ca>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start:server": "node src/server.js",
+    "start:client": "node src/client.js",
+    "generate:certs": "./scripts/generate-certs.sh"
+  }
+}
